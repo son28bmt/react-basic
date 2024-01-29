@@ -1,27 +1,32 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-image: url(https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/370229804_3751462608469277_5212103307936367875_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=173fa1&_nc_eui2=AeHXJlc2KcD1V0ep-me4O4lgBWlW4fPcGaUFaVbh89wZpVE3DNVFRz3WXBLXoQc6ln3aBJFbHLHGjjzS6HmwKyio&_nc_ohc=IZhalWaSLncAX_CMVfS&_nc_ht=scontent.fhan15-1.fna&oh=00_AfBlYNrYFQdMjiQVR8FASwNp-joS8hzEBXsy7TGJwAog4g&oe=65BBEEB3) ;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: cover;
+}
+.App-header h1{
+  margin: 0;
+  color: #ff0dd3;
+}
+.App-main{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 80vh;
+}
+.App-left{
+  width: 60%;
+  background-color: #61dafb;
+}
+.App-right{
+  width: 40%;
+  background-color: rgb(8, 255, 61);
+}
+.App-footer{
+display: flex;
+gap: 800px;
+
 }
 
 .App-link {
